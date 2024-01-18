@@ -115,7 +115,6 @@ public class Connection implements Runnable {
                     mssgIn();
                     return;
                 }
-
                 controller.recibirMensaje(m);
                 long time = (System.currentTimeMillis());
                 setTimeReceivedMessage(time);
